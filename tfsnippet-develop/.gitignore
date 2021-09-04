@@ -1,0 +1,13 @@
+.idea
+.cache
+.pytest_cache
+.vscode
+*.iml
+*.lock
+/config.py
+/debug.py
+/.coverage
+*.pyc
+.DS_Store
+*.*~
+results/
