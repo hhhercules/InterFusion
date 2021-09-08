@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\chend\\Desktop\\InterFusion\\results\\stack_train_2021-09-04_23-48-21_947\\result_params\\restored_pretrain_params.dat"
+all_model_checkpoint_paths: "C:\\Users\\chend\\Desktop\\InterFusion\\results\\stack_train_2021-09-04_23-48-21_947\\result_params\\restored_pretrain_params.dat"

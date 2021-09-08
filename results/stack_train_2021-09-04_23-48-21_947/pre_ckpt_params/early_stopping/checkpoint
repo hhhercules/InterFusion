@@ -1,0 +1,3 @@
+model_checkpoint_path: "C:\\Users\\chend\\Desktop\\InterFusion\\results\\stack_train_2021-09-04_23-48-21_947\\pre_ckpt_params\\early_stopping\\checkpoint.dat-1180"
+all_model_checkpoint_paths: "C:\\Users\\chend\\Desktop\\InterFusion\\results\\stack_train_2021-09-04_23-48-21_947\\pre_ckpt_params\\early_stopping\\checkpoint.dat-1121"
+all_model_checkpoint_paths: "C:\\Users\\chend\\Desktop\\InterFusion\\results\\stack_train_2021-09-04_23-48-21_947\\pre_ckpt_params\\early_stopping\\checkpoint.dat-1180"

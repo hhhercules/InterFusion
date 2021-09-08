@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 import os
 
+import sys
+sys.path.append('/Users/chend/Desktop/InterFusion')
+
 import logging
 import time
 import numpy as np
@@ -140,9 +143,12 @@ def main(exp: mltk.Experiment[ExpConfig], config: ExpConfig):
     # print the current seed and generate three seeds
     logging.info('Current random seed: %s', config.seed)
     np.random.seed(config.seed)
-    random.seed(np.random.randint(0xffffffff))
-    tf.set_random_seed(np.random.randint(0xffffffff))
-    np.random.seed(np.random.randint(0xffffffff))
+    # random.seed(np.random.randint(0xffffffff))
+    # tf.set_random_seed(np.random.randint(0xffffffff))
+    # np.random.seed(np.random.randint(0xffffffff))
+    random.seed(np.random.randint(100))
+    tf.set_random_seed(np.random.randint(100))
+    np.random.seed(np.random.randint(100))
 
     spt.settings.check_numerics = config.check_numerics
     spt.settings.enable_assertions = False
